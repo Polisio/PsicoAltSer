@@ -1,9 +1,18 @@
 :root {
-  --primary: #4F46E5;
-  --secondary: #6366F1;
-  --light: #f9fafb;
-  --dark: #1f2937;
-  --gray: #e5e7eb;
+  --primary: #022859 ;;
+  --secondary: #D9A407;
+  --terciary: #D98F07;
+  --brown: #593D1B;
+  --coffee: #BF843B;
+  --light: #7ab4ff;
+  --dark: #00142e;
+  --gray: #9fa5a7;
+  --wine: #731921;
+  --blue: #235B8C;
+  --yellow_light: #F2C84B;
+  --coffe_light: #A66C26;
+  --brown_light: #734C1D;
+  --gray_light: #c5d9e0;
 }
 
 * {
@@ -15,12 +24,100 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
-  background-color: var(--light);
+  background-color: var(--gray_light);
   color: var(--dark);
 }
 
-.container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 1rem;
+// .container {
+//   max-width: 1200px;
+//   margin: auto;
+//   padding: 0 1rem;
+// }
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Gowun+Dodum&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+/* Gowun */
+
+.gowun-dodum-regular {
+  font-family: "Gowun Dodum", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Overlock */
+
+.overlock-regular {
+  font-family: "Overlock", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.overlock-bold {
+  font-family: "Overlock", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.overlock-black {
+  font-family: "Overlock", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.overlock-regular-italic {
+  font-family: "Overlock", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.overlock-bold-italic {
+  font-family: "Overlock", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.overlock-black-italic {
+  font-family: "Overlock", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* comic neue */
+
+.comic-neue-light {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.comic-neue-regular {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-neue-bold {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.comic-neue-light-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.comic-neue-regular-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.comic-neue-bold-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: italic;
 }
