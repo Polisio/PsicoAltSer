@@ -40,7 +40,10 @@ ol, ul {
 }
 .ajusteFila {
 	line-height: .6em;
+}
 
+.alignCenter {
+	align-content: center;
 }
 
 blockquote, q {
