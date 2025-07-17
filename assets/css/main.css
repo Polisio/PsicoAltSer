@@ -45,6 +45,7 @@ ol, ul {
 
 .alignCenter {
 	align-content: center;
+	justify-content:space-between ;
 }
 
 blockquote, q {
