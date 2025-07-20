@@ -83,6 +83,21 @@ input, select, textarea {
 	appearance: none;
 }
 
+.division {
+		-webkit-transform: translate3d(0, 0, 0);
+		position: relative;
+		border-top: solid 1px #c2c7cc;
+		padding: 1em 0 0 0;
+}
+
+
+	/* #footer-wrapper {
+		-webkit-transform: translate3d(0, 0, 0);
+		position: relative;
+		border-top: solid 1px #c2c7cc;
+		padding: 6em 0 6em 0;
+	} */
+
 /* Basic */
 
 	@-ms-viewport {
@@ -1793,7 +1808,7 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			width: 100%;
-			margin: 0 0 3em 0;
+			margin: auto;
 		}
 
 		.image.left {
