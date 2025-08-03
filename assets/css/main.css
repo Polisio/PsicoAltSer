@@ -37,6 +37,7 @@ ol, ul {
 }
 .estilo {
 	list-style: none;
+	line-height: 2.5em;
 }
 
 .ajusteFila {
